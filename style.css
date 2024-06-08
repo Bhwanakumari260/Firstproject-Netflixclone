@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+}
+.main{
+    background: url("../images/background.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: max(1000px, 100vw);
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    font-weight: 900px;
+    background-color:rgba(23,23,23,0.7);
+    
+    position: absolute;
+    top :0px;
+}
+#navbar{
+    display: flex;
+    max-width: 140vh;
+    margin: auto;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+#navbar img{
+    color: red;
+    width: 180px;
+    position: relative;
+    z-index: 10;
+}
+#navbar button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    color:white;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+    padding:30px;
+    gap:23px;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+.hero>  :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 700px;
+    font-size: 25px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.seperation{
+    height: 5px;
+    background-color: rgb(92, 88, 88);
+}
+.btn{
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: white;
+    border:5px;
+    
+}
+.btn-red{
+    background-color: red;
+    color:white;
+    z-index: 10;
+    padding: 15px 40px ;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.btn-red:hover{
+    cursor:pointer;
+    background-color: rgb(156, 10, 10);
+
+}
+.main input{
+    padding: 17px 70px;
+    background-color: rgb(71, 68, 68);
+    border-radius: 4px;
+    opacity: 0.89;
+    color:white;
+    border: 1px solid rgb(207, 205, 205);
+    margin:5px;
+}
+.btn-red-sm{
+    background-color: red;
+    color:rgb(234, 223, 223);
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    z-index: 10;
+    margin:5px;
+}
+.btn-red-sm:hover{
+    background-color:rgb(156, 10, 10);
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70vw;
+    margin:auto;
+    color:white;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 35vw;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 111px;
+    right: 35px;
+    width: 79%;
+
+}
+.sectionimage{
+    width: 400px;
+    height: 100px;
+    z-index: 10;
+    border: 9px;
+    border: 2px solid grey;
+    position: relative;
+    top: 160px;
+    right: 335px;
+}
+.section-2{
+    text-align: center;
+    margin:20px;
+}
+.section-2 div{
+    margin:30px;
+}
+.section-2 div input{
+    padding: 17px 70px;
+    background-color: rgb(71, 68, 68);
+    border-radius: 4px;
+    opacity: 0.89;
+    color:white;
+    border: 1px solid rgb(207, 205, 205);
+    margin:5px;
+}
+
+ h2{
+    font-size:3rem;
+    font-weight: bolder;
+}
+.first span{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.faq{
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    margin:34px;
+
+}
+.faq-box{
+    display: flex;
+    transition: all 0.5s ease-out;
+    padding:24px;
+    max-width: 70vw;
+    color: white;
+    background-color:#2d2d2d;
+    margin:  12px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-box:hover{
+    background-color:gray;
+}
+.faq h2{
+    text-align: center;
+    margin:22px;
+}
+.faq-box i{
+    color:white;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin:auto;
+    padding: 34px;
+}
+ .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:white;
+ }
+ .footer a{
+    color:white;
+ }
+ .footer div{
+    padding: 34px 0px;
+ }
+ .footer-item{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    gap:12px;
+ }
